@@ -49,8 +49,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/TelRan/src/test/java/OpenBrowser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="109">
-              <caret line="15" column="16" lean-forward="true" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+            <state relative-caret-position="204">
+              <caret line="24" column="53" lean-forward="true" selection-start-line="24" selection-start-column="53" selection-end-line="24" selection-end-column="53" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -60,6 +60,13 @@
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -67,6 +74,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/TelRan/build.gradle" />
+        <option value="$PROJECT_DIR$/TelRan/src/test/java/OpenFirefoxBrowser.java" />
         <option value="$PROJECT_DIR$/TelRan/src/test/java/OpenBrowser.java" />
       </list>
     </option>
@@ -103,6 +111,13 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
+            <path>
+              <item name="TelRan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TelRan" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -110,7 +125,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548091747301" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548095295393" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -169,9 +184,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="OpenFirefoxBrowser.TestEbaySerch" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TelRan.TelRan.test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="OpenFirefoxBrowser" />
+      <option name="METHOD_NAME" value="TestEbaySerch" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.OpenBrowser" />
+        <item itemvalue="TestNG.OpenFirefoxBrowser.TestEbaySerch" />
         <item itemvalue="TestNG.OpenBrowser.chromeBrowserTest" />
         <item itemvalue="Gradle.C:/Users/Less/Documents/GitHub/BolotinQA17/TelRan/build.gradle" />
       </list>
@@ -191,25 +219,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="OpenBrowser_chromeBrowserTest - 2019.01.18 at 21h 25m 39s.xml">
-      <configuration name="OpenBrowser.chromeBrowserTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="OpenBrowser_chromeBrowserTest - 2019.01.18 at 21h 26m 11s.xml">
-      <configuration name="OpenBrowser.chromeBrowserTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="OpenBrowser - 2019.01.18 at 21h 26m 18s.xml">
-      <configuration name="OpenBrowser" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="OpenBrowser - 2019.01.18 at 21h 41m 48s.xml">
-      <configuration name="OpenBrowser" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="OpenBrowser - 2019.01.21 at 18h 48m 24s.xml">
-      <configuration name="OpenBrowser" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="OpenBrowser - 2019.01.21 at 18h 49m 00s.xml">
       <configuration name="OpenBrowser" configurationId="TestNG" />
     </history-entry>
     <history-entry file="OpenBrowser - 2019.01.21 at 19h 09m 33s.xml">
+      <configuration name="OpenBrowser" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="OpenBrowser - 2019.01.21 at 19h 48m 30s.xml">
+      <configuration name="OpenBrowser" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="OpenFirefoxBrowser_TestEbaySerch - 2019.01.21 at 20h 06m 30s.xml">
+      <configuration name="OpenFirefoxBrowser.TestEbaySerch" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="OpenFirefoxBrowser_TestEbaySerch - 2019.01.21 at 20h 07m 25s.xml">
+      <configuration name="OpenFirefoxBrowser.TestEbaySerch" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="OpenFirefoxBrowser_TestEbaySerch - 2019.01.21 at 20h 10m 30s.xml">
+      <configuration name="OpenFirefoxBrowser.TestEbaySerch" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="OpenFirefoxBrowser_TestEbaySerch - 2019.01.21 at 20h 11m 13s.xml">
+      <configuration name="OpenFirefoxBrowser.TestEbaySerch" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="OpenFirefoxBrowser_TestEbaySerch - 2019.01.21 at 20h 12m 38s.xml">
+      <configuration name="OpenFirefoxBrowser.TestEbaySerch" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="OpenBrowser - 2019.01.21 at 20h 16m 44s.xml">
+      <configuration name="OpenBrowser" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="OpenBrowser - 2019.01.21 at 20h 17m 36s.xml">
       <configuration name="OpenBrowser" configurationId="TestNG" />
     </history-entry>
   </component>
@@ -226,7 +263,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.5057283" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.30605564" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -298,10 +335,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/TelRan/src/test/java/OpenFirefoxBrowser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="11" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/TelRan/src/test/java/OpenBrowser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="109">
-          <caret line="15" column="16" lean-forward="true" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+        <state relative-caret-position="204">
+          <caret line="24" column="53" lean-forward="true" selection-start-line="24" selection-start-column="53" selection-end-line="24" selection-end-column="53" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

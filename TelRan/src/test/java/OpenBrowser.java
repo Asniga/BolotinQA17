@@ -13,17 +13,17 @@ WebDriver wd;
 @BeforeClass
     public void setUp (){
     wd=new ChromeDriver();
-    wd.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS); // jdet max 3 sec dlya poiska elementov, idet dal'she
+    wd.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS); // wait max 3 sec dlya poiska elementov, idet dal'she
     }
 
 @Test
 public void chromeBrowserTest(){
-    wd.get("https://www.google.ru/");
+    wd.get("https://www.ebay.com/");
     // type in SearchBar
-    wd.findElement(By.name("q")).click();
-    wd.findElement(By.name("q")).clear();
-    wd.findElement(By.name("q")).sendKeys("Selenium");
-    wd.findElement(By.name("btnK")).click();
+    wd.findElement(By.id("gh-ac")).click();
+    wd.findElement(By.id("gh-ac")).clear();
+    wd.findElement(By.id("gh-ac")).sendKeys("Shoes");
+    wd.findElement(By.id("gh-btn")).click();
 }
 
 @AfterClass
