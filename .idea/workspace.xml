@@ -7,6 +7,9 @@
     <ignored path="$PROJECT_DIR$/TelRan/.gradle/" />
     <ignored path="$PROJECT_DIR$/TelRan/build/" />
     <ignored path="$PROJECT_DIR$/TelRan/out/" />
+    <ignored path="$PROJECT_DIR$/secondSeleniumProject/.gradle/" />
+    <ignored path="$PROJECT_DIR$/secondSeleniumProject/build/" />
+    <ignored path="$PROJECT_DIR$/secondSeleniumProject/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +18,9 @@
   </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$/TelRan">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/secondSeleniumProject">
       <ProjectState />
     </projectState>
   </component>
@@ -38,21 +44,51 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TelRan/build.gradle">
+        <entry file="file://$PROJECT_DIR$/secondSeleniumProject/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
+            <state relative-caret-position="153">
+              <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/secondSeleniumProject/src/test/java/LoginTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/TelRan/src/test/java/OpenBrowser.java">
+        <entry file="file://$PROJECT_DIR$/secondSeleniumProject/src/test/java/LogoutTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="24" column="53" lean-forward="true" selection-start-line="24" selection-start-column="53" selection-end-line="24" selection-end-column="53" />
+            <state relative-caret-position="119">
+              <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#354#355#0" expanded="true" />
+                <element signature="e#434#435#0" expanded="true" />
+                <element signature="e#343#344#0" expanded="true" />
+                <element signature="e#411#412#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/secondSeleniumProject/src/test/java/TestBase.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="61" column="10" lean-forward="true" selection-start-line="61" selection-start-column="10" selection-end-line="61" selection-end-column="10" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#772#773#0" expanded="true" />
+                <element signature="e#826#827#0" expanded="true" />
+                <element signature="e#1270#1271#0" expanded="true" />
+                <element signature="e#1354#1355#0" expanded="true" />
+                <element signature="e#1463#1464#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -75,11 +111,15 @@
       <list>
         <option value="$PROJECT_DIR$/TelRan/build.gradle" />
         <option value="$PROJECT_DIR$/TelRan/src/test/java/OpenFirefoxBrowser.java" />
+        <option value="$PROJECT_DIR$/secondSeleniumProject/build.gradle" />
         <option value="$PROJECT_DIR$/TelRan/src/test/java/OpenBrowser.java" />
+        <option value="$PROJECT_DIR$/secondSeleniumProject/src/test/java/LoginTest.java" />
+        <option value="$PROJECT_DIR$/secondSeleniumProject/src/test/java/LogoutTest.java" />
+        <option value="$PROJECT_DIR$/secondSeleniumProject/src/test/java/TestBase.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="10" />
     <option name="y" value="20" />
     <option name="width" value="1346" />
@@ -91,29 +131,28 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="TelRan" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TelRan" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="secondSeleniumProject" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="TelRan" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TelRan" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="secondSeleniumProject" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="TelRan" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TelRan" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="secondSeleniumProject" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
               <item name="TelRan" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TelRan" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="secondSeleniumProject" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -122,15 +161,22 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548095295393" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548878706834" />
+    <property name="extract.method.default.visibility" value="public" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../BolotinAnnaQA17_Home" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -144,23 +190,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.OpenBrowser">
-    <configuration name="C:/Users/Less/Documents/GitHub/BolotinQA17/TelRan/build.gradle" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/TelRan/build.gradle" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list />
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
-      <method v="2" />
+  <component name="RunManager" selected="TestNG.LogoutTest">
+    <configuration name="LoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TelRan2.secondSeleniumProject.test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="LoginTest" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LogoutTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TelRan2.secondSeleniumProject.test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="LogoutTest" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="OpenBrowser" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TelRan.TelRan.test" />
@@ -198,10 +247,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.LogoutTest" />
+        <item itemvalue="TestNG.LoginTest" />
         <item itemvalue="TestNG.OpenBrowser" />
         <item itemvalue="TestNG.OpenFirefoxBrowser.TestEbaySerch" />
         <item itemvalue="TestNG.OpenBrowser.chromeBrowserTest" />
-        <item itemvalue="Gradle.C:/Users/Less/Documents/GitHub/BolotinQA17/TelRan/build.gradle" />
       </list>
     </recent_temporary>
   </component>
@@ -219,42 +269,42 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="OpenBrowser - 2019.01.21 at 18h 49m 00s.xml">
-      <configuration name="OpenBrowser" configurationId="TestNG" />
+    <history-entry file="LoginTest - 2019.01.28 at 20h 38m 18s.xml">
+      <configuration name="LoginTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="OpenBrowser - 2019.01.21 at 19h 09m 33s.xml">
-      <configuration name="OpenBrowser" configurationId="TestNG" />
+    <history-entry file="LoginTest - 2019.01.30 at 19h 52m 52s.xml">
+      <configuration name="LoginTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="OpenBrowser - 2019.01.21 at 19h 48m 30s.xml">
-      <configuration name="OpenBrowser" configurationId="TestNG" />
+    <history-entry file="LoginTest - 2019.01.30 at 20h 23m 17s.xml">
+      <configuration name="LoginTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="OpenFirefoxBrowser_TestEbaySerch - 2019.01.21 at 20h 06m 30s.xml">
-      <configuration name="OpenFirefoxBrowser.TestEbaySerch" configurationId="TestNG" />
+    <history-entry file="LoginTest - 2019.01.30 at 20h 26m 45s.xml">
+      <configuration name="LoginTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="OpenFirefoxBrowser_TestEbaySerch - 2019.01.21 at 20h 07m 25s.xml">
-      <configuration name="OpenFirefoxBrowser.TestEbaySerch" configurationId="TestNG" />
+    <history-entry file="LoginTest - 2019.01.30 at 20h 28m 33s.xml">
+      <configuration name="LoginTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="OpenFirefoxBrowser_TestEbaySerch - 2019.01.21 at 20h 10m 30s.xml">
-      <configuration name="OpenFirefoxBrowser.TestEbaySerch" configurationId="TestNG" />
+    <history-entry file="LogoutTest - 2019.01.30 at 20h 29m 46s.xml">
+      <configuration name="LogoutTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="OpenFirefoxBrowser_TestEbaySerch - 2019.01.21 at 20h 11m 13s.xml">
-      <configuration name="OpenFirefoxBrowser.TestEbaySerch" configurationId="TestNG" />
+    <history-entry file="LogoutTest - 2019.01.30 at 21h 55m 40s.xml">
+      <configuration name="LogoutTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="OpenFirefoxBrowser_TestEbaySerch - 2019.01.21 at 20h 12m 38s.xml">
-      <configuration name="OpenFirefoxBrowser.TestEbaySerch" configurationId="TestNG" />
+    <history-entry file="LogoutTest - 2019.01.30 at 21h 58m 55s.xml">
+      <configuration name="LogoutTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="OpenBrowser - 2019.01.21 at 20h 16m 44s.xml">
-      <configuration name="OpenBrowser" configurationId="TestNG" />
+    <history-entry file="LogoutTest - 2019.01.30 at 22h 03m 32s.xml">
+      <configuration name="LogoutTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="OpenBrowser - 2019.01.21 at 20h 17m 36s.xml">
-      <configuration name="OpenBrowser" configurationId="TestNG" />
+    <history-entry file="LogoutTest - 2019.01.30 at 22h 04m 33s.xml">
+      <configuration name="LogoutTest" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25037822" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2655068" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -263,8 +313,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.30605564" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.30114567" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.39934534" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -328,29 +378,77 @@
     <entry file="file://$PROJECT_DIR$/TelRan/settings.gradle">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/TelRan/src/test/java/OpenFirefoxBrowser.java" />
     <entry file="file://$PROJECT_DIR$/TelRan/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
-          <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
+          <caret line="14" column="2" selection-start-line="14" selection-start-column="2" selection-end-line="15" selection-end-column="45" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TelRan/src/test/java/OpenFirefoxBrowser.java">
+    <entry file="file://$PROJECT_DIR$/TelRan/src/test/java/OpenBrowser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="11" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
+        <state relative-caret-position="102">
+          <caret line="27" column="23" lean-forward="true" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TelRan/src/test/java/OpenBrowser.java">
+    <entry file="file://$PROJECT_DIR$/secondSeleniumProject/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="24" column="53" lean-forward="true" selection-start-line="24" selection-start-column="53" selection-end-line="24" selection-end-column="53" />
+        <state relative-caret-position="153">
+          <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/secondSeleniumProject/src/test/java/LoginTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/secondSeleniumProject/src/test/java/TestBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="61" column="10" lean-forward="true" selection-start-line="61" selection-start-column="10" selection-end-line="61" selection-end-column="10" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#772#773#0" expanded="true" />
+            <element signature="e#826#827#0" expanded="true" />
+            <element signature="e#1270#1271#0" expanded="true" />
+            <element signature="e#1354#1355#0" expanded="true" />
+            <element signature="e#1463#1464#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.testng/testng/6.14.3/bfd2538501a129a142fe8366169c48b91609dc0b/testng-6.14.3-sources.jar!/org/testng/internal/ClassHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="440" column="50" selection-start-line="440" selection-start-column="50" selection-end-line="440" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.testng/testng/6.14.3/bfd2538501a129a142fe8366169c48b91609dc0b/testng-6.14.3-sources.jar!/org/testng/internal/ObjectFactoryImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/secondSeleniumProject/src/test/java/LogoutTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#354#355#0" expanded="true" />
+            <element signature="e#434#435#0" expanded="true" />
+            <element signature="e#343#344#0" expanded="true" />
+            <element signature="e#411#412#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -407,10 +505,12 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
+          <last-edited>TelRan2.secondSeleniumProject</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
@@ -418,6 +518,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
+          <last-edited>Gradle: com.beust:jcommander:1.72</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

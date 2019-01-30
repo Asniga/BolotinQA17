@@ -4,6 +4,8 @@
     <bytecodeTargetLevel>
       <module name="TelRan.TelRan.main" target="1.8" />
       <module name="TelRan.TelRan.test" target="1.8" />
+      <module name="TelRan2.secondSeleniumProject.main" target="1.8" />
+      <module name="TelRan2.secondSeleniumProject.test" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

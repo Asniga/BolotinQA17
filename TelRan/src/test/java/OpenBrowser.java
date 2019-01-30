@@ -1,9 +1,7 @@
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.testng.annotations.AfterClass;
-import org.testng.annotations.BeforeClass;
-import org.testng.annotations.Test;
+import org.testng.annotations.*;
 
 import java.util.concurrent.TimeUnit;
 
@@ -18,15 +16,40 @@ WebDriver wd;
 
 @Test
 public void chromeBrowserTest(){
-    wd.get("https://www.ebay.com/");
-    // type in SearchBar
-    wd.findElement(By.id("gh-ac")).click();
-    wd.findElement(By.id("gh-ac")).clear();
-    wd.findElement(By.id("gh-ac")).sendKeys("Shoes");
-    wd.findElement(By.id("gh-btn")).click();
+    OpenSite();
+    Type();
+    ClickSerchButton();
 }
 
-@AfterClass
+@Test
+public void TesrEBayFilter(){
+    OpenSite();
+    Type();
+    ClickSerchButton();
+    filterByAuction();
+
+}
+
+    public void filterByAuction() {
+        wd.findElement(By.linkText("Auction")).click();
+    }
+
+
+    public void ClickSerchButton() {
+        wd.findElement(By.id("gh-btn")).click();
+    }
+
+    public void Type() {
+        wd.findElement(By.id("gh-ac")).click();
+        wd.findElement(By.id("gh-ac")).clear();
+        wd.findElement(By.id("gh-ac")).sendKeys("glasses");
+    }
+
+    public void OpenSite() {
+        wd.get("https://www.ebay.com/");
+    }
+
+    @AfterClass
     public void tearDown() throws InterruptedException {
     Thread.sleep(2000);
     wd.quit();
