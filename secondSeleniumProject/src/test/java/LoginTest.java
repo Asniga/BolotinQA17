@@ -1,14 +1,13 @@
-
 import org.testng.annotations.Test;
 
-public class LoginTest extends TestBase{
+public class LoginTest extends  TestBase {
 
     @Test
-            public void testLogin(){
-        EnterButton();
-        insertName();
-        insertPass();
-        loginButton2();
+    public  void testLogIn() throws InterruptedException {
+        clickOnLoginButton();
+        fillLoginForm();
+        confirmLogin();
     }
+
 
 }

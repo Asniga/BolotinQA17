@@ -1,21 +1,27 @@
-import org.openqa.selenium.By;
 import org.testng.Assert;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-public class LogoutTest extends TestBase { // osnovivaetsya na TestBase
+public class LogoutTest extends  TestBase {
+    @BeforeMethod
+    public  void  ensurePreconditions() throws InterruptedException {
+        if(!isUserLoggedIn()){
+            login();
+        }
+    }
+//  public  void  ensurePreconditions(){
+//    if(isUserLoggedIn()){
+//
+//    } else login();
+//  }
 
     @Test
-    public void testLogout(){
-clickOnAvatar();
-clickOnLogOut();
-        Assert.assertFalse(isUserLoggedIn()); //proverit' chto LoggedIn=False
-    }
-    public void clickOnAvatar() {
-        wd.findElement(By.cssSelector(".member-avatar")).click();
-    }
-    public void clickOnLogOut() {
-        wd.findElement(By.cssSelector(".js-logout")).click();
-    }
+    public void testLogout() throws InterruptedException {
+        Thread.sleep(3000);
+        clickOnAvatar();
+        clickOnLogOutButton();
 
+        Assert.assertFalse(isUserLoggedIn());
+    }
 
 }
