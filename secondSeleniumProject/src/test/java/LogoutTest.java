@@ -5,23 +5,18 @@ import org.testng.annotations.Test;
 public class LogoutTest extends  TestBase {
     @BeforeMethod
     public  void  ensurePreconditions() throws InterruptedException {
-        if(!isUserLoggedIn()){
-            login();
+        if(!appManager.isUserLoggedIn()){           // proverka esli user ne zaloginen
+            appManager.login();                    // to zaloginetsya
         }
     }
-//  public  void  ensurePreconditions(){
-//    if(isUserLoggedIn()){
-//
-//    } else login();
-//  }
 
     @Test
     public void testLogout() throws InterruptedException {
         Thread.sleep(3000);
-        clickOnAvatar();
-        clickOnLogOutButton();
+        appManager.clickOnAvatar();
+        appManager.clickOnLogOutButton();
 
-        Assert.assertFalse(isUserLoggedIn());
+        Assert.assertFalse(appManager.isUserLoggedIn());
     }
 
 }

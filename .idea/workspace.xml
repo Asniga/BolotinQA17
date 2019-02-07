@@ -52,20 +52,35 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/secondSeleniumProject/src/test/java/LoginTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="24" lean-forward="true" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+            <state relative-caret-position="204">
+              <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/secondSeleniumProject/src/test/java/CreateTeamTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="244">
+              <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/secondSeleniumProject/src/test/java/LogoutTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="196">
-              <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+            <state relative-caret-position="187">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -76,20 +91,53 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/secondSeleniumProject/src/test/java/TestBase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+            <state relative-caret-position="85">
+              <caret line="5" column="36" lean-forward="true" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#300#301#0" expanded="true" />
+                <element signature="e#334#335#0" expanded="true" />
                 <element signature="e#610#611#0" expanded="true" />
-                <element signature="e#635#636#0" expanded="true" />
-                <element signature="e#1377#1378#0" expanded="true" />
-                <element signature="e#1404#1405#0" expanded="true" />
-                <element signature="e#1875#1876#0" expanded="true" />
-                <element signature="e#1933#1934#0" expanded="true" />
-                <element signature="e#1971#1972#0" expanded="true" />
-                <element signature="e#2018#2019#0" expanded="true" />
-                <element signature="e#2062#2063#0" expanded="true" />
-                <element signature="e#2114#2115#0" expanded="true" />
+                <element signature="e#636#637#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/secondSeleniumProject/src/test/java/AppManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1377">
+              <caret line="81" column="39" lean-forward="true" selection-start-line="81" selection-start-column="39" selection-end-line="81" selection-end-column="39" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#490#491#0" expanded="true" />
+                <element signature="e#515#516#0" expanded="true" />
+                <element signature="e#1318#1319#0" expanded="true" />
+                <element signature="e#1345#1346#0" expanded="true" />
+                <element signature="e#1845#1846#0" expanded="true" />
+                <element signature="e#1903#1904#0" expanded="true" />
+                <element signature="e#2032#2033#0" expanded="true" />
+                <element signature="e#2084#2085#0" expanded="true" />
+                <element signature="e#2315#2316#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/secondSeleniumProject/src/test/java/TeamHelper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" column="56" selection-start-line="15" selection-start-column="56" selection-end-line="15" selection-end-column="56" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#151#152#0" expanded="true" />
+                <element signature="e#178#179#0" expanded="true" />
+                <element signature="e#95#96#0" expanded="true" />
+                <element signature="e#142#143#0" expanded="true" />
+                <element signature="e#712#713#0" expanded="true" />
+                <element signature="e#758#759#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -114,13 +162,17 @@
         <option value="$PROJECT_DIR$/TelRan/src/test/java/OpenFirefoxBrowser.java" />
         <option value="$PROJECT_DIR$/secondSeleniumProject/build.gradle" />
         <option value="$PROJECT_DIR$/TelRan/src/test/java/OpenBrowser.java" />
-        <option value="$PROJECT_DIR$/secondSeleniumProject/src/test/java/LoginTest.java" />
         <option value="$PROJECT_DIR$/secondSeleniumProject/src/test/java/LogoutTest.java" />
         <option value="$PROJECT_DIR$/secondSeleniumProject/src/test/java/TestBase.java" />
+        <option value="$PROJECT_DIR$/secondSeleniumProject/src/test/java/LoginTest.java" />
+        <option value="$PROJECT_DIR$/secondSeleniumProject/src/test/java/CreateTeamTest.java" />
+        <option value="$PROJECT_DIR$/secondSeleniumProject/src/test/java/BoardHelper.java" />
+        <option value="$PROJECT_DIR$/secondSeleniumProject/src/test/java/AppManager.java" />
+        <option value="$PROJECT_DIR$/secondSeleniumProject/src/test/java/TeamHelper.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="10" />
     <option name="y" value="20" />
     <option name="width" value="1346" />
@@ -166,7 +218,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549302055733" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549560068819" />
     <property name="extract.method.default.visibility" value="public" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../BolotinAnnaQA17_Home" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -191,7 +243,17 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.LogoutTest">
+  <component name="RunManager" selected="TestNG.CreateTeamTest">
+    <configuration name="CreateTeamTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TelRan2.secondSeleniumProject.test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CreateTeamTest" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TelRan2.secondSeleniumProject.test" />
       <option name="PACKAGE_NAME" value="" />
@@ -222,24 +284,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OpenBrowser.chromeBrowserTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="TelRan.TelRan.test" />
+    <configuration name="&lt;default&gt;" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TelRan2.secondSeleniumProject.test" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="OpenBrowser" />
-      <option name="METHOD_NAME" value="chromeBrowserTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="OpenFirefoxBrowser.TestEbaySerch" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="TelRan.TelRan.test" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="OpenFirefoxBrowser" />
-      <option name="METHOD_NAME" value="TestEbaySerch" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="TEST_OBJECT" value="PACKAGE" />
       <properties />
       <listeners />
       <method v="2">
@@ -248,11 +296,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.LogoutTest" />
+        <item itemvalue="TestNG.CreateTeamTest" />
         <item itemvalue="TestNG.LoginTest" />
+        <item itemvalue="TestNG.&lt;default&gt;" />
+        <item itemvalue="TestNG.LogoutTest" />
         <item itemvalue="TestNG.OpenBrowser" />
-        <item itemvalue="TestNG.OpenFirefoxBrowser.TestEbaySerch" />
-        <item itemvalue="TestNG.OpenBrowser.chromeBrowserTest" />
       </list>
     </recent_temporary>
   </component>
@@ -270,42 +318,42 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LogoutTest - 2019.01.31 at 18h 30m 44s.xml">
-      <configuration name="LogoutTest" configurationId="TestNG" />
+    <history-entry file="_default_ - 2019.02.07 at 18h 12m 46s.xml">
+      <configuration name="&lt;default&gt;" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="LogoutTest - 2019.02.04 at 18h 21m 38s.xml">
-      <configuration name="LogoutTest" configurationId="TestNG" />
+    <history-entry file="_default_ - 2019.02.07 at 18h 15m 38s.xml">
+      <configuration name="&lt;default&gt;" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="LoginTest - 2019.02.04 at 18h 59m 08s.xml">
+    <history-entry file="_default_ - 2019.02.07 at 18h 19m 57s.xml">
+      <configuration name="&lt;default&gt;" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="LoginTest - 2019.02.07 at 18h 22m 18s.xml">
       <configuration name="LoginTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="LogoutTest - 2019.02.04 at 19h 10m 03s.xml">
-      <configuration name="LogoutTest" configurationId="TestNG" />
+    <history-entry file="CreateTeamTest - 2019.02.07 at 18h 51m 46s.xml">
+      <configuration name="CreateTeamTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="LogoutTest - 2019.02.04 at 19h 13m 31s.xml">
-      <configuration name="LogoutTest" configurationId="TestNG" />
+    <history-entry file="CreateTeamTest - 2019.02.07 at 19h 01m 38s.xml">
+      <configuration name="CreateTeamTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="LogoutTest - 2019.02.04 at 19h 22m 50s.xml">
-      <configuration name="LogoutTest" configurationId="TestNG" />
+    <history-entry file="CreateTeamTest - 2019.02.07 at 19h 06m 48s.xml">
+      <configuration name="CreateTeamTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="LogoutTest - 2019.02.04 at 19h 27m 50s.xml">
-      <configuration name="LogoutTest" configurationId="TestNG" />
+    <history-entry file="CreateTeamTest - 2019.02.07 at 19h 10m 33s.xml">
+      <configuration name="CreateTeamTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="LoginTest - 2019.02.04 at 19h 28m 46s.xml">
-      <configuration name="LoginTest" configurationId="TestNG" />
+    <history-entry file="CreateTeamTest - 2019.02.07 at 19h 15m 59s.xml">
+      <configuration name="CreateTeamTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="LoginTest - 2019.02.04 at 19h 33m 07s.xml">
-      <configuration name="LoginTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="LogoutTest - 2019.02.04 at 19h 34m 12s.xml">
-      <configuration name="LogoutTest" configurationId="TestNG" />
+    <history-entry file="CreateTeamTest - 2019.02.07 at 19h 20m 53s.xml">
+      <configuration name="CreateTeamTest" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26928896" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16944024" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -314,7 +362,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.35188216" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32733223" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39934534" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -418,37 +466,79 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/secondSeleniumProject/src/test/java/LoginTest.java">
+    <entry file="file://$PROJECT_DIR$/secondSeleniumProject/src/test/java/CreateTeamTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="24" lean-forward="true" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+        <state relative-caret-position="244">
+          <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/secondSeleniumProject/src/test/java/TestBase.java">
+    <entry file="file://$PROJECT_DIR$/secondSeleniumProject/src/test/java/TeamHelper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+        <state relative-caret-position="255">
+          <caret line="15" column="56" selection-start-line="15" selection-start-column="56" selection-end-line="15" selection-end-column="56" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#610#611#0" expanded="true" />
-            <element signature="e#635#636#0" expanded="true" />
-            <element signature="e#1377#1378#0" expanded="true" />
-            <element signature="e#1404#1405#0" expanded="true" />
-            <element signature="e#1875#1876#0" expanded="true" />
-            <element signature="e#1933#1934#0" expanded="true" />
-            <element signature="e#1971#1972#0" expanded="true" />
-            <element signature="e#2018#2019#0" expanded="true" />
-            <element signature="e#2062#2063#0" expanded="true" />
-            <element signature="e#2114#2115#0" expanded="true" />
+            <element signature="e#151#152#0" expanded="true" />
+            <element signature="e#178#179#0" expanded="true" />
+            <element signature="e#95#96#0" expanded="true" />
+            <element signature="e#142#143#0" expanded="true" />
+            <element signature="e#712#713#0" expanded="true" />
+            <element signature="e#758#759#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/secondSeleniumProject/src/test/java/AppManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1377">
+          <caret line="81" column="39" lean-forward="true" selection-start-line="81" selection-start-column="39" selection-end-line="81" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#490#491#0" expanded="true" />
+            <element signature="e#515#516#0" expanded="true" />
+            <element signature="e#1318#1319#0" expanded="true" />
+            <element signature="e#1345#1346#0" expanded="true" />
+            <element signature="e#1845#1846#0" expanded="true" />
+            <element signature="e#1903#1904#0" expanded="true" />
+            <element signature="e#2032#2033#0" expanded="true" />
+            <element signature="e#2084#2085#0" expanded="true" />
+            <element signature="e#2315#2316#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/secondSeleniumProject/src/test/java/LogoutTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+        <state relative-caret-position="187">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/secondSeleniumProject/src/test/java/TestBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="36" lean-forward="true" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#300#301#0" expanded="true" />
+            <element signature="e#334#335#0" expanded="true" />
+            <element signature="e#610#611#0" expanded="true" />
+            <element signature="e#636#637#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/secondSeleniumProject/src/test/java/LoginTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
