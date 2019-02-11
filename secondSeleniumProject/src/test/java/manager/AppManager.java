@@ -1,7 +1,11 @@
+package manager;
 import org.openqa.selenium.By;
 import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.remote.BrowserType;
 
 import java.util.concurrent.TimeUnit;
 
@@ -10,7 +14,17 @@ public class AppManager {
     WebDriver wd;
 
     public void start() {
-        wd= new ChromeDriver();
+
+        //proverka tekushego browser
+        String browser = BrowserType.CHROME;
+        if(browser.equals(BrowserType.CHROME)){
+            wd= new ChromeDriver();
+        }else if (browser.equals(BrowserType.FIREFOX)){
+            wd= new FirefoxDriver();
+        }else if (browser.equals(BrowserType.EDGE)){
+            wd=new EdgeDriver();
+        }
+
         wd.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
         wd.manage().window().maximize();
         openSite("https://trello.com");
@@ -21,18 +35,16 @@ public class AppManager {
         wd.quit();
     }
 
-    protected void clickOnLoginButton() throws InterruptedException {
+    public void clickOnLoginButton() throws InterruptedException {
         Thread.sleep(3000);
         teamHelper.click(By.className("global-header-section-button"));
     }
 
-    protected void confirmLogin() {
+    public void confirmLogin() {
         teamHelper.click(By.cssSelector("#login"));
-
-
     }
 
-    protected void fillLoginForm(String userName, String password) {
+    public void fillLoginForm(String userName, String password) {
         wd.findElement(By.cssSelector("input[type=email]")).click();
         wd.findElement(By.cssSelector("input[type=email]")).clear();
         wd.findElement(By.cssSelector("input[type=email]")).sendKeys(userName);
@@ -54,10 +66,9 @@ public class AppManager {
 
     public boolean isUserLoggedIn() {
         return isElementPresent(By.cssSelector("img.member-avatar"));
-
     }
 
-    private boolean isElementPresent(By by) {
+    public boolean isElementPresent(By by) {
         try {
             wd.findElement(by);
             return true;
@@ -66,11 +77,11 @@ public class AppManager {
         }
     }
 
-    protected void clickOnAvatar() {
+    public void clickOnAvatar() {
         teamHelper.click(By.xpath("//span[@class='member']"));
     }
 
-    protected void clickOnLogOutButton() {
+    public void clickOnLogOutButton() {
         teamHelper.click(By.cssSelector("a.js-logout"));
     }
 

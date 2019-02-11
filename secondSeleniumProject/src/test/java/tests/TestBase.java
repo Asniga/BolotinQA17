@@ -1,9 +1,11 @@
+package tests;
+import manager.AppManager;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
 
 public class TestBase {
 
-    protected static AppManager appManager = new AppManager();
+    public static AppManager appManager = new AppManager();
 
     @BeforeSuite
     public void setUp(){
