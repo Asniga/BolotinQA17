@@ -12,11 +12,16 @@ import java.util.concurrent.TimeUnit;
 public class AppManager {
     private TeamHelper teamHelper;
     WebDriver wd;
+    private String browser;
+
+    public AppManager(String browser) {
+        this.browser = browser;
+    }
 
     public void start() {
 
         //proverka tekushego browser
-        String browser = BrowserType.CHROME;
+        //String browser = BrowserType.CHROME;
         if(browser.equals(BrowserType.CHROME)){
             wd= new ChromeDriver();
         }else if (browser.equals(BrowserType.FIREFOX)){
